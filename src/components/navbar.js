@@ -6,10 +6,7 @@ export default function Navbar(){
             <a href="#!">Home</a>
             <a href="#!">Recipes</a>
         </div>
-        <div className="sidebar-btn"></div>
-       <div className="bar"></div>
-       <div className="bar"></div>
-       <div className="bar"></div>
+       
 
         </div>
     )
