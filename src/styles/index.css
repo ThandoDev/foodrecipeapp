@@ -109,9 +109,20 @@ a{
   .custom-image{
    background-color: red;
    height: 0;
-   width: 100%
+   width: 100%;
+   position: relative;
+   
    
 
+  }
+
+  img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
   }
 
  
@@ -127,11 +138,17 @@ a{
 }
 
 
-.section.hero .gallery {
+.section.hero 
+.gallery  {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 1.75vw;
  } 
+
+
+ .typography{
+   padding-right: 1em;
+ }
 
 
 
