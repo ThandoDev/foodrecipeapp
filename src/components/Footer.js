@@ -8,15 +8,13 @@ export default function Footer(){
             </div>
             <div className="footer-section">
                 <p className="title">Contact Us</p>
-                <p>flavourboysb@gmail.com</p>
-                <p>+342-5324-9454</p>
-                <p>2393 Street NYC</p>
+                <p>flavourboys@gmail.com</p>
+                <p>072 23 0715</p>
+                <p>Eden Park, Alberton</p>
             </div>
             <div className="footer-section">
-                <p className="title">Socials</p>
-                <p>Facebook</p>
-                <p>Twitter</p>
-                <p>Instagram</p> 
+                <p className="title"></p>
+                
             </div>
         </div>
     )
