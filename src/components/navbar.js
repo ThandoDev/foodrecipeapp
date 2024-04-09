@@ -19,18 +19,14 @@ export default function Navbar(){
             path: "/recipes",
             icon: faList
         },
-        {
-            name: "Settings",
-            path: "/settings",
-            icon: faCog
-        }
+        
     ]
 
   
     return (
         <>
             <div className="navbar container">
-                <Link to="/" className="logo">F<span>oo</span>diesHub</Link>
+                <Link to="/" className="logo">F<span>lavour</span>Boys</Link>
                 <div className="nav-links">
                     { links.map(link => (
                         <Link className={location.pathname === link.path ? "active" : ""} to={link.path} key={link.name}>{link.name}</Link>
